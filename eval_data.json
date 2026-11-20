@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "notes": "Ravi will send the report by Friday. Priya will fix the login bug by Monday.",
+    "expected": [
+      {
+        "keywords": [
+          "report"
+        ],
+        "owner": "Ravi",
+        "due": "Friday"
+      },
+      {
+        "keywords": [
+          "login"
+        ],
+        "owner": "Priya",
+        "due": "Monday"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "notes": "Anita will book the conference room by Tuesday. Karthik will prepare the slides, due Wednesday.",
+    "expected": [
+      {
+        "keywords": [
+          "room"
+        ],
+        "owner": "Anita",
+        "due": "Tuesday"
+      },
+      {
+        "keywords": [
+          "slides"
+        ],
+        "owner": "Karthik",
+        "due": "Wednesday"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "notes": "We need to update the pricing page. Nobody has volunteered yet and there is no deadline.",
+    "expected": [
+      {
+        "keywords": [
+          "pricing"
+        ],
+        "owner": null,
+        "due": null
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "notes": "We agreed to move the weekly meeting to Thursdays. We also decided to keep the current vendor.",
+    "expected": []
+  },
+  {
+    "id": 5,
+    "notes": "Divya will write the test cases by Thursday and review the pull request by Friday.",
+    "expected": [
+      {
+        "keywords": [
+          "test"
+        ],
+        "owner": "Divya",
+        "due": "Thursday"
+      },
+      {
+        "keywords": [
+          "pull request"
+        ],
+        "owner": "Divya",
+        "due": "Friday"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "notes": "Suresh will deploy the fix tonight.",
+    "expected": [
+      {
+        "keywords": [
+          "deploy"
+        ],
+        "owner": "Suresh",
+        "due": "tonight"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "notes": "Someone should clean up the old database backups at some point.",
+    "expected": [
+      {
+        "keywords": [
+          "backup"
+        ],
+        "owner": null,
+        "due": null
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "notes": "The payment gateway is down and this is urgent. Rahul will investigate it today.",
+    "expected": [
+      {
+        "keywords": [
+          "payment"
+        ],
+        "owner": "Rahul",
+        "due": "today"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "notes": "Lakshmi will submit the budget proposal by 15 December.",
+    "expected": [
+      {
+        "keywords": [
+          "budget"
+        ],
+        "owner": "Lakshmi",
+        "due": "15 December"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "notes": "Good morning everyone. The weather is nice today. Vikram will update the documentation by Wednesday. Lunch is at one.",
+    "expected": [
+      {
+        "keywords": [
+          "documentation"
+        ],
+        "owner": "Vikram",
+        "due": "Wednesday"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "notes": "We dropped the plan to redesign the logo. Nisha will still order the new business cards by Friday.",
+    "expected": [
+      {
+        "keywords": [
+          "business card"
+        ],
+        "owner": "Nisha",
+        "due": "Friday"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "notes": "Action items: Hari to renew the SSL certificate by Monday. Pooja to email the vendors by Tuesday. Imran to fix the typo on the homepage.",
+    "expected": [
+      {
+        "keywords": [
+          "ssl"
+        ],
+        "owner": "Hari",
+        "due": "Monday"
+      },
+      {
+        "keywords": [
+          "vendor"
+        ],
+        "owner": "Pooja",
+        "due": "Tuesday"
+      },
+      {
+        "keywords": [
+          "typo"
+        ],
+        "owner": "Imran",
+        "due": null
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "notes": "Should we hire another designer? Let's think about it. No decision yet.",
+    "expected": []
+  },
+  {
+    "id": 14,
+    "notes": "The QA lead, Fathima, will run the regression tests before Friday's release.",
+    "expected": [
+      {
+        "keywords": [
+          "regression"
+        ],
+        "owner": "Fathima",
+        "due": "Friday"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "notes": "Arjun will set up the staging server next week. Sneha will write the user guide by the end of the month. We also noted that the office will be closed on Monday.",
+    "expected": [
+      {
+        "keywords": [
+          "staging"
+        ],
+        "owner": "Arjun",
+        "due": "next week"
+      },
+      {
+        "keywords": [
+          "user guide"
+        ],
+        "owner": "Sneha",
+        "due": "end of the month"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "notes": "Ravi will send the report by Thursday. Actually, make that Friday, the client asked for more time.",
+    "expected": [
+      {
+        "keywords": [
+          "report"
+        ],
+        "owner": "Ravi",
+        "due": "Friday"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "notes": "Meera is handling the vendor contract. She will finish it by Monday.",
+    "expected": [
+      {
+        "keywords": [
+          "contract"
+        ],
+        "owner": "Meera",
+        "due": "Monday"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "notes": "Kavin and Deepa will both test the mobile app by Wednesday.",
+    "expected": [
+      {
+        "keywords": [
+          "mobile app"
+        ],
+        "owner": "Kavin",
+        "due": "Wednesday"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "notes": "Ravi report-a Friday-kulla anuppuvaan. Priya login bug-a fix pannuvaa.",
+    "expected": [
+      {
+        "keywords": [
+          "report"
+        ],
+        "owner": "Ravi",
+        "due": "Friday"
+      },
+      {
+        "keywords": [
+          "login"
+        ],
+        "owner": "Priya",
+        "due": null
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "notes": "Chandru will present the quarterly numbers on Monday. Yamini will book the auditorium by Sunday.",
+    "expected": [
+      {
+        "keywords": [
+          "present"
+        ],
+        "owner": "Chandru",
+        "due": "Monday"
+      },
+      {
+        "keywords": [
+          "auditorium"
+        ],
+        "owner": "Yamini",
+        "due": "Sunday"
+      }
+    ]
+  }
+]
